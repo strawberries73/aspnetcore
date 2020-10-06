@@ -44,7 +44,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
         }
 
         /// <summary>
-        /// 
+        /// Generates a form for a route.
         /// </summary>
         /// <param name="generator">The <see cref="IHtmlGenerator"/>.</param>
         /// <param name="viewContext">The <see cref="ViewContext"/>.</param>

@@ -4,7 +4,7 @@
 namespace Microsoft.AspNetCore.Mvc.Rendering
 {
     /// <summary>
-    /// Enum for tag rendering modes.
+    /// Specifies constants for tag rendering modes.
     /// </summary>
     public enum TagRenderMode
     {
