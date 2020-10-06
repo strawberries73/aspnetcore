@@ -11,7 +11,7 @@ using Microsoft.Extensions.Internal;
 namespace Microsoft.AspNetCore.Mvc.ViewFeatures
 {
     /// <summary>
-    /// A <see cref="IControllerActivatorProvider"/> for a view data dictionary controller.
+    /// Represents a <see cref="IControllerActivatorProvider"/> for a view data dictionary controller.
     /// </summary>
     public class ViewDataDictionaryControllerPropertyActivator : IControllerPropertyActivator
     {

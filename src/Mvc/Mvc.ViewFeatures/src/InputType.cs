@@ -4,7 +4,7 @@
 namespace Microsoft.AspNetCore.Mvc.ViewFeatures
 {
     /// <summary>
-    /// An enum for input types.
+    /// Specifies constants which define an input type.
     /// </summary>
     public enum InputType
     {

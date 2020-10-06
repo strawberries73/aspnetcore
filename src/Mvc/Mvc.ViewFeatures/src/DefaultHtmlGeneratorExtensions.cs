@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace Microsoft.AspNetCore.Mvc.ViewFeatures
 {
     /// <summary>
-    /// Static class that adds extension methods to <see cref="IHtmlGenerator"/>.
+    /// Static class that adds extension methods to <see cref="IHtmlGenerator"/>. This class cannot be inherited.
     /// </summary>
     public static class DefaultHtmlGeneratorExtensions
     {

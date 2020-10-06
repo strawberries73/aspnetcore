@@ -4,7 +4,7 @@
 namespace Microsoft.AspNetCore.Mvc.Rendering
 {
     /// <summary>
-    /// Enum representing the form method.
+    /// Specifies constants which define the form method used.
     /// </summary>
     public enum FormMethod
     {

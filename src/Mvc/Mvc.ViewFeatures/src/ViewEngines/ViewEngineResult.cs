@@ -28,7 +28,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewEngines
         public IView View { get; private set; }
 
         /// <summary>
-        /// The name of the view.
+        /// Gets or sets the name of the view.
         /// </summary>
         public string ViewName { get; private set; }
 
