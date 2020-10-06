@@ -11,7 +11,7 @@ using Microsoft.Extensions.Internal;
 namespace Microsoft.AspNetCore.Mvc.ViewFeatures
 {
     /// <summary>
-    /// Static class that provides caching for TryGetValue.
+    /// Static class that provides caching for TryGetValue. This class cannot be inherited.
     /// </summary>
     public static class TryGetValueProvider
     {
