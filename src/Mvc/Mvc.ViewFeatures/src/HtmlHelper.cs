@@ -23,7 +23,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
     public class HtmlHelper : IHtmlHelper, IViewContextAware
     {
         /// <summary>
-        /// css class name for input validation.
+        /// CSS class name for input validation.
         /// </summary>
         public static readonly string ValidationInputCssClassName = "input-validation-error";
 
