@@ -43,7 +43,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
         public static readonly string ValidationMessageValidCssClassName = "field-validation-valid";
 
         /// <summary>
-        /// css class name for validation summary errors.
+        /// CSS class name for validation summary errors.
         /// </summary>
         public static readonly string ValidationSummaryCssClassName = "validation-summary-errors";
 
