@@ -28,7 +28,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
         public static readonly string ValidationInputCssClassName = "input-validation-error";
 
         /// <summary>
-        /// css class name for valid input validation.
+        /// CSS class name for valid input validation.
         /// </summary>
         public static readonly string ValidationInputValidCssClassName = "input-validation-valid";
 
