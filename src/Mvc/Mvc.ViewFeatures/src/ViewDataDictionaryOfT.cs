@@ -8,7 +8,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
     /// <summary>
     /// Represents a <see cref="ViewDataDictionary"/> for a specific model type.
     /// </summary>
-    /// <typeparam name="TModel"></typeparam>
+    /// <typeparam name="TModel">The type of the model.</typeparam>
     public class ViewDataDictionary<TModel> : ViewDataDictionary
     {
         /// <summary>
