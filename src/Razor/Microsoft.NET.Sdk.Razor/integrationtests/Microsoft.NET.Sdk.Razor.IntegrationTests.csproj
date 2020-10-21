@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!--
@@ -14,6 +14,8 @@
     <!-- Tests do not work on Helix yet -->
     <BuildHelixPayload>false</BuildHelixPayload>
     <TestAppsRoot>$(MSBuildProjectDirectory)\..\..\test\testassets\</TestAppsRoot>
+
+    <TestRunnerAdditionalArguments>$(TestRunnerAdditionalArguments) --blame "CollectHangDump;TestTimeout=20s"</TestRunnerAdditionalArguments>
   </PropertyGroup>
 
   <Import Project="$(SharedSourceRoot)MSBuild.Testing\MSBuild.Testing.targets" />
